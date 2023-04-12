@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gonzalo Farias">
+    <meta  name="description" content="Portfolio de Gonzalo Farias">
+    <meta name="keywords" content="Portfolio, GonzaFarias, Gonzalo Farias" >
+    
+
+    <link rel="shortcut icon" href="img/gf.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/function2.js" type="text/javascript" defer></script>
+
+    <title>GonzaloFarias - Portfolio</title>
+  </head>
+  <body class="container-fluid">
+    
+      <nav class="nav nav-tabs fixed-top justify-content-end theme-alt-d" id="nav-sup">
+        <li class="nav-item">
+          <h5><a class="nav-link" aria-current="page" href="#cv">Sobre mi</a></h5>
+        </li>
+        <li class="nav-item">
+          <h5><a class="nav-link" aria-current="page" href="#sobreredes">Contacto</a></h5>
+        </li>
+        <label class="switch">
+          <input type="checkbox" id="slider" value="1" checked onchange="javascript:showContent()">
+          <span class="slider"></span>
+        </label>
+      </nav>
+      
+      <br id="sobremi"><br><br>
+    
+      <br><br>
+    <header class="rounded-3">
+      
+    
+      <div class="container" >
+        <div class="row">
+          <div class="col col-8 order-1"> 
+            <h1 class="display-1" id="nombre"><strong>GONZALO<br> FARÍAS</strong></h1>
+            <p>Estudiante de Lic. Informática <br>y Tec. Tecnologías Web.</p>
+          </div>
+          <div class="col order-2">
+            <img style="height:auto; display:block;" alt="avatar" id="avatar" src="img/gf2.png" width="360" height="360" 
+            class="img-fluid rounded-circle "/>
+            <img style="height:auto; display:none;" alt="avatar" id="avatarb" src="img/gf.png" width="360" height="360" 
+            class="img-fluid rounded-circle "/>
+          </div>
+        </div>  
+      </div>   
+    </header>
+    <div class="container" id="superior"><span id="cv"></span></div> <br><br>
+    <h3 class="container theme-alt"><strong>SOBRE MI</strong> </h3>
+    <div class="container" id="aboutme" >
+      <div class="row">
+        <div class="col order-2">
+          <h6>- 
+            Hola, soy Gonzalo, un estudiante que está motivado por adentrarse en el mundo de la programación y el desarrollo web.
+             Aunque todavía no tengo experiencia profesional, he estado trabajando para aprender y mejorar mis habilidades.
+            Como estudiante, estoy constantemente buscando nuevas oportunidades para aprender y crecer como desarrollador.
+          </h6>
+        </div>
+        <div class="col order-1" > 
+          <br>
+            <h5 class="fst-italic"> "Hagas lo que hagas, hazlo con pasión." </h5>
+            <h6>
+            <br>- Estudiando en la Universidad Nacional del Oeste (<a id="uno" href="http://www.uno.edu.ar/index.php" target="_blank">UNO</a>). <br>
+            <br>- Moreno, Buenos Aires, Argentina.
+            </h6>
+        </div>
+      </div>
+      <br>
+    </div>
+    
+    <br><br><br>
+      <div class="container">
+        <div class="row">
+          <div class="col order-1">
+            <h5 class="theme-alt"><strong>SKILLS</strong> </h5> <br>
+            <p>Tengo experiencia en las siguientes Tecnologías tanto en proyectos realizados para la Universidad, como en propios.<br>
+              <br><span class="tecnos">JAVA, PYTHON, HTML, CSS, JAVASCRIPT<br>BOOTSTRAP, POSTGRESQL, C.</span>  
+            </p>
+          </div>
+          <div class="col order-2">
+            <h5 class="theme-alt"><strong>PROYECTOS</strong> </h5> <br>
+            <p>Revisa mi repositorio para ver los proyectos que he realizado:
+            <a id="click-proyectos" class="fw-bold " href="https://github.com/GonzaFarias" target="_blank">
+              <u>GitHub</u>
+            </a></p> <br><br>
+            <h5 class="theme-alt"><strong>CV</strong> </h5> 
+            <p>Para ver mi curriculum clickea en el siguiente enlace:
+              <a class="fw-bold" target="_blank" id="click-cv" href="download/CV_GonzaloFarias.pdf" download="curriculum.pdf"><u> Descargar.</u></a>
+            </p>  
+          </div>
+        </div>            
+        <br>
+        
+      </div>  
+    <br>
+    <br id="sobreredes"><br>
+
+     <div class="container sobreredes">     
+          <br><br>
+          <h3 class="container theme-alt"><strong>CONTACTO</strong> </h3>
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col order-1"><br><br>
+                <p>Si quieres comunicarte conmigo, completa el formulario y me contactare con vos a la brevedad.
+                  O hazlo a través de los siguientes medios.
+                </p>
+                <br><br>
+                <div class="row align-items-center" >
+                  <div class="col order-1 red-bot"> <a href="mailto:gonzafarias01@gmail.com" target="_blank">
+                    <p class="medios-contacto-texto">Email</p>
+                    <img class="medios-contacto-img" id="imgE_B" style="display:none;" src="img/3447672B.png" class="img-fluid" alt="email"/>
+                    <img class="medios-contacto-img" id="imgE_A" style="display:block;" src="img/3447672.png" class="img-fluid" alt="email"/></a>
+                  </div>
+                  <div class="col order-2 red-bot"><a href="https://www.linkedin.com/in/gonzalofarias/" target="_blank">
+                    <p class="medios-contacto-texto"> Linkedin</p>
+                    <img class="medios-contacto-img" id="imgL_B" style="display:none;" src="img/174857B.png" class="img-fluid" alt="linkedin"/>
+                    <img class="medios-contacto-img" id="imgL_A" style="display:block;" src="img/174857.png" class="img-fluid" alt="linkedin"/> </a>
+                    </a>  
+                  </div>
+                  <div class="col order-3"> <a href="https://api.whatsapp.com/send/?phone=541125021429&text&app_absent=0" target="_blank">
+                    <p class="medios-contacto-texto">Whatsapp</p>
+                    <img class="medios-contacto-img" id="imgW_B" style="display:none;" src="img/174879B.png" class="img-fluid" alt="whatsapp"/>
+                    <img class="medios-contacto-img" id="imgW_A" style="display:block;" src="img/174879.png" class="img-fluid" alt="whatsapp"/> </a>   
+                  </div>
+                </div>
+                <br><br>
+              </div>
+              <div class="col order-2">
+                <div class="contact-form">
+                  <form method='POST' action='php/enviar.php'>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" required="">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required="">
+
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" required=""></textarea>
+                    <button type="submit" name="submit">Enviar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <br> 
+      </div>      
+        <br> <br>
+        <h3 style="text-align: center;">Gracias por visitar mi portfolio! :) </h3>
+        <br> <br> <br>
+
+    <a id="version" target="_blank" href="https://gonzafarias.github.io/Portfolio/">Version anterior</a> <br>
+    <footer class="alert" id="pie">
+      Copyright &copy; 2023 | Hecho por Gonzalo Farías
+    </footer>
+  </body>
+</html>
