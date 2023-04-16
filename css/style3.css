@@ -30,6 +30,13 @@
     --form: rgb(36, 105, 255);
 
 }
+.fade-in {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+.fade-in.active {
+  opacity: 1;
+}
 
 body{
     background: var(--base);
@@ -84,6 +91,17 @@ p{
 
 #nombre{
   font-weight:400;
+}
+
+.slide-in {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 #superior{
@@ -173,6 +191,14 @@ p{
   opacity: 0;
   width: 0;
   height: 0;
+}
+
+.zoomable {
+  transition: transform 0.5s;
+}
+
+.zoomable:hover {
+  transform: scale(1.1);
 }
 
 .slider {
