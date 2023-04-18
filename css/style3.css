@@ -325,3 +325,21 @@ input{
   transition: transform 0.3s ease-in-out;
 }
 
+
+/* Estilos para la barra de movimiento de página */
+::-webkit-scrollbar {
+  width: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--terciary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--extra); 
+  border-radius: 3px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--equal); 
+}
