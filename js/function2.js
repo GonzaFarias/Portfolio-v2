@@ -1,4 +1,8 @@
 
+window.addEventListener("load", function() {
+  document.body.style.display = "block";
+});
+
 const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 const slider = document.getElementById('slider');
 
