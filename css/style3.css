@@ -41,6 +41,7 @@
 body{
     background: var(--base);
     color: var(--primary);
+    display: none;
 }
 .boton{
     border-color: var(--primary);
@@ -96,7 +97,7 @@ p{
 .slide-in {
   opacity: 0;
   transform: translateX(-100%);
-  transition: all 0.5s;
+  transition: all 0.8s;
 }
 
 .slide-in.active {
@@ -325,7 +326,6 @@ input{
   transition: transform 0.3s ease-in-out;
 }
 
-
 /* Estilos para la barra de movimiento de página */
 ::-webkit-scrollbar {
   width: 6px; 
@@ -342,4 +342,17 @@ input{
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--equal); 
+}
+
+/* Animaciones */
+.scale-up-center {
+	animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
