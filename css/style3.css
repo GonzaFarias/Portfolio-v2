@@ -90,10 +90,6 @@ p{
     color: var(--text);
 }
 
-#nombre{
-  font-weight:400;
-}
-
 .slide-in {
   opacity: 0;
   transform: translateX(-100%);
